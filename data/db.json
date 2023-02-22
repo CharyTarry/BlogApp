@@ -1,0 +1,18 @@
+
+{
+    "blogs": [
+    {
+        "title": "Advantages of using avocado on hair", 
+        "body": "Try this new hair mask ...",
+        "author" : "Chary", 
+        "id": 1
+    },
+
+    {
+        "title": "Poems for your soul",
+        "body": "Romance ...", 
+        "author": "Lilith", 
+        "id" : 2
+    }
+]
+}
