@@ -9,11 +9,11 @@ const useFetch = (url) => {
     useEffect(() => {
         const abortCont = new AbortController();
 
-        setTimeout(() => {
+       setTimeout(() => {
             fetch(url, {signal: abortCont.signal})
-            .then(res => {
+                .then(res => {
                 if(!res.ok){
-                    throw Error('OOPSY! Data not found :(')
+                    throw Error('OOPSY! Data not found :(');
                 }
                 return res.json();
             })
@@ -29,8 +29,8 @@ const useFetch = (url) => {
                     setIsPending(false)
                     setError(err.message);
                 }  
-            })
-        }, 1000);
+            });
+ }, 1000);
         
         return () => abortCont.abort();
 

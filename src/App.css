@@ -62,26 +62,45 @@ color:#073136
   cursor: pointer;
 }
 .create{
-  max-width: 400px;
+  max-width: 6800px;
   margin: 0 auto;
   text-align: center;
+  
 }
 .create label{
   text-align: left;
   display: block;
+  font-size: 18px;
+  font-weight:lighter;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .create h2{
   font-size: 20px;
   color: #a85793;
   margin-bottom: 30px;
 }
-.create input, .create textarea, .create select{
+.create input, .create select{
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
   border: 1px solid #ddd ;
   box-sizing: border-box;
   display: block;
+  border-color: #a85793;
+  border-width: 2px;
+  max-width: 500px;
+  height: 40px;
+}
+.create textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd ;
+  box-sizing: border-box;
+  display: block;
+  height: 500px;
+  border-color: #a85793;
+  border-width: 2px;
 }
 .create button{
   background: #a85793;

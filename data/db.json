@@ -1,18 +1,10 @@
-
 {
-    "blogs": [
+  "blogs": [
     {
-        "title": "Advantages of using avocado on hair", 
-        "body": "Try this new hair mask ...",
-        "author" : "Chary", 
-        "id": 1
-    },
-
-    {
-        "title": "Poems for your soul",
-        "body": "Romance ...", 
-        "author": "Lilith", 
-        "id" : 2
+      "title": "Poems by Lilith",
+      "body": "Lilith, the queen of the night,\nDarkness her cloak, shadows her light.\nBorn of the earth, and the wind's embrace,\nHer spirit wild, her beauty, a grace.\n\nIn ancient tales, she's known as the first,\nA woman of power, who refused to be coerced.\nShe rejected Adam, and flew from his side,\nIn search of freedom, her wings open wide.\n\nLilith, the temptress, the serpent's bride,\nA demon to some, but a goddess inside.\nHer voice a whisper, her touch a flame,\nHer spellbinding gaze, will never be tamed.\n\nShe's the mistress of the moon, the stars, and the seas,\nThe wildness within, the untamed breeze.\nHer spirit roams free, unbound by time,\nA symbol of power, a force divine.\n\nSo let us honor Lilith, the ancient queen,\nAnd embrace the darkness, the magic unseen.\nFor in her power, we'll find our own,\nAnd rise up, wild and free, like she has shown.",
+      "author": "Chary",
+      "id": 1
     }
-]
+  ]
 }
