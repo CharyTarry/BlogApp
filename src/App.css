@@ -46,12 +46,16 @@ color:#073136
 .blog-preview a{
   text-decoration: none;
 }
+.blog-details{
+  text-align: center;
+}
 .blog-details h3 {
   color: #a85793;
   margin-bottom: 10px;
 }
 .blog-details div{
   margin: 20px 0;
+  font-family:'Courier New', Courier, monospace;
 }
 .blog-details button{
   background: #a85793;
@@ -60,6 +64,7 @@ color:#073136
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  font-size: medium;
 }
 .create{
   max-width: 6800px;
@@ -80,16 +85,20 @@ color:#073136
   margin-bottom: 30px;
 }
 .create input, .create select{
-  width: 100%;
+  width: 100%; 
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #ddd ;
+  /*border: 1px solid #ddd ;*/
+  border-width: 0 0 2px;
   box-sizing: border-box;
   display: block;
-  border-color: #a85793;
-  border-width: 2px;
+  border-color: black;
   max-width: 500px;
   height: 40px;
+}
+input:focus {
+  border-color:#a85793;
+  outline: 0.2px dotted #000;
 }
 .create textarea{
   width: 100%;
@@ -100,7 +109,7 @@ color:#073136
   display: block;
   height: 500px;
   border-color: #a85793;
-  border-width: 2px;
+  border-width: 2px 2px 0;
 }
 .create button{
   background: #a85793;
